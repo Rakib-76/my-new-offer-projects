@@ -1,0 +1,290 @@
+.fixed{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.adlam-font {
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+.banner{
+    background-color: aliceblue;
+    max-width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/Banner Image.png");
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.banner-title{
+    font-size: 400;
+    font-size: 2rem;
+    color: white;
+}
+.banner-description{
+    font-size: 900;
+    font-size: 4.5rem;
+    color: white; 
+    margin-top: 0px;
+}
+.banner-container{
+    text-align: center;
+    padding: 177px 344px;
+}
+/* first section of main */
+.off-title{
+    font-weight: 700;
+    font-size: 5.5rem;
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+.categori-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #FF0000;
+    margin-bottom: 5px;
+}
+.categori-description{
+    font-weight: 600;
+    font-size: 3rem;
+    color: #070211;
+    margin-bottom: 5px;
+}
+.first-section-container{
+    text-align: center;
+}
+
+.welcome-container{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/Vectorrr.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.welcome{
+padding: 126px 552px 298px 126px;
+}
+.welcome-title{
+    max-width: 642px;
+    font-weight: 900;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 5px;
+
+}
+.welcome-description{
+    max-width: 697px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: white;
+}
+.join{
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+.join:hover{
+    text-decoration: underline;
+} 
+/* third section related style */
+
+.third-section-container{
+    background-color: lightpink;
+    border-radius: 16px;
+}
+.time-container{
+    padding: 150px 386px 0px 385px;  
+    margin-left: 20px;  
+}
+.red{
+    color: red;
+}
+.place,
+.date,
+.time{
+    font-weight:600;
+    font-size: 2rem;
+    color: black;
+}
+.btn-primary{
+    margin: 0px 608px 120px 508px;
+    padding: 20px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+
+/* forth section related */
+.forth-section-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+}
+.comming-container{
+    max-width: 393px;
+    height: 255px;
+    margin-top: 80px;
+}
+.offer{
+    color: red;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.comming-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #070211;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.comming-description{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #070211;
+    margin-top: 5px;
+}
+.ring-container{
+
+    width: 400px;
+    height: 400px;
+    border: 10px solid red;
+    border-radius: 50%;
+    background-image: url("../images/Ellipse\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* background position center is most important */
+}
+.circle-image{
+    max-width: 400px;
+    height: 400px;
+    
+}
+.year{
+    max-width: 393px;
+    height: 255px;
+    margin-top: 80px;
+}
+.year-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: red;
+    margin-bottom: 10px;
+}
+.year-description{
+    max-width: 276px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: black;
+}
+.new-year-container{
+    max-width: 276px;
+    height: 96px;
+}
+
+/* sixth section style related */
+
+.awesome-subtitle{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: red;
+    margin-bottom: 5px;
+}
+.awesome-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.awesome-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 5px; 
+    max-width: 896px;
+}
+.image-grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+.gmail{
+    max-width: 150px;
+    height: 150px;
+    margin: 60px 585px;
+    margin-bottom: 0px;
+}
+.sub-container{
+    max-width: 896px;
+    height: 146px;
+    margin: 0px auto;
+    text-align: center;
+}
+.sub-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 10px;
+}
+.sub-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #070211;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.field-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    max-width: 910px;
+    margin: 0 auto;
+}
+.input{
+    width: 896px;
+    height: 64px;
+    border: none;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 50px 0px 0px 50px;
+
+    
+}
+.btn-secondary{
+    height: 67px;
+    border: none;
+    background-color: red;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 1.12rem;
+    color: white;
+    background-position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    border-radius: 0px 50px 50px 0px;
+}
+.btn-secondary:hover{
+    border: 2px solid black;
+}
+
+
+@media screen and (max-width:420px) {
+    img{
+        width: 100%;
+    }
+}
